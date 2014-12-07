@@ -1,0 +1,14 @@
+git config --list
+git config --global user.name
+git config --global user.email
+mkdir test-repo
+cd test-repo
+git init
+git remote add origin https://github.com/ashwingrao/test-repo.git
+git clone https://github.com/ashwingrao/repoNameHere.git
+git checkout origin/master
+git checkout -b new_branch_name
+git checkout master
+git add .
+git commit -m After Lesson 2
+git push
