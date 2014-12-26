@@ -12,3 +12,24 @@ git checkout master
 git add .
 git commit -m After Lesson 2
 git push
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push
+git remote set-url origin git@github.com:ashwingrao/datasciencecoursera.git
+git remote show upstream
+git pull upstream master
+git push origin master
+git remote rename origin new_origin
+git remote rm upstream
+git tag
+git tag -l 'v1.8.4*' #List only those that start with v1.8.4
+git tag -a v1.5 -m 'My version 1.5' #Annotated tags
+git show v1.5
+git tag v1.5-lw #Lightweight tag
+git log --pretty=oneline
+git tag -a v1.5 <checksum>
+git push origin v1.5 <or>
+git push origin --tags
+
+
